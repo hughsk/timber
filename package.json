@@ -1,0 +1,30 @@
+{
+  "name": "timber",
+  "version": "0.0.1",
+  "description": "A lean logging module, in the form of an `EventEmitter` with an identical API to `console`.",
+  "main": "index.js",
+  "dependencies": {
+    "funstance": "~0.0.2",
+    "inherits": "~1.0.0"
+  },
+  "devDependencies": {
+    "tape": "~0.2.2"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/timber.git"
+  },
+  "keywords": [
+    "logging",
+    "events",
+    "emitter",
+    "debug",
+    "modular",
+    "lightweight"
+  ],
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughskennedy.com)",
+  "license": "MIT"
+}
